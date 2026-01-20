@@ -1,5 +1,6 @@
-n1,n2 = map(int,input("Enter two numbers")).split()
-num1,num2 = n1,n2
+n1,n2 = input("Enter two numbers").split()
+num1 = int(n1)
+num2 = int(n2)
 print(f"Their sum is {num1 + num2},Their difference is {num1 - num2}, Their product is {num1 * num2}")
 if num1 > num2:
     print(f"{num1} is greater than {num2}")
